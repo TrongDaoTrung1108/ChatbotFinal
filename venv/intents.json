@@ -1,0 +1,96 @@
+{"intents": [
+         {"tag": "Giới thiệu",
+         "patterns": ["Xin chào", "Mình chào bạn", "Cho mình hỏi"],
+         "responses": ["Xin chào, mình là hướng dẫn viên du lịch Tam Đảo,bạn cần giúp gì không?",
+           "Rất vui khi bạn ghé thăm Tam Đảo, mình giúp được gì cho bạn?", "Cảm ơn bạn đã ghé thăm Tam Đảo, bạn cần giúp gì?"],
+         "context_set": ""
+        },
+        {"tag": "Vị trí",
+          "patterns":["Tam Đảo nằm ở đâu","Làm sao đến được Tam Đảo","Tam Đảo ở chỗ nào","Cho mình hỏi Tam Đảo nằm ở đâu ạ"],
+          "responses": ["Tam Đảo thuộc huyện Tam Đảo, tỉnh Vĩnh Phúc, cách Hà Nội 80 km"]
+        },
+        {"tag": "Khí hậu",
+          "patterns":["Khí hậu Tam Đảo như thế nào","Thời tiết trên Tam Đảo có tốt không","thời tiết hiện tại có thuận lợi để đi du lịch không",
+            "khí hậu hiện tại có tốt không","thời tiết hiện giờ có tốt không","thời tiết hiện tại ra sao"],
+          "responses":["Tam Đảo có khí hậu quanh năm dễ chịu ạ","Khí hậu Tam Đảo luôn luôn tốt và dễ chịu thuận lợi để đi du lịch ạ"]
+        },
+        {"tag": "Cách di chuyển",
+          "patterns": ["Làm sao để đi đến Tam Đảo","Đi xe máy đến Tam Đảo có được không","Đi đến Tam Đảo dùng phương tiện gì",
+            "Đường nào đến Tam Đảo nhanh nhất"],
+          "responses": ["Có thể đi bằng nhiều phương tiện như: ô tô xe máy,xe bus... ạ.Đi xe máy mất 2 tiếng và không nên đi xe ga do có vị trí dốc nhỏ, đi ô tô mất 1 tiếng rưỡi còn đi xe bus có thể đi 2 tuyến 07,01 đến chân núi sau đó bắt tắc xi ạ",
+            "Đi đến tam đảo dùng xe máy, ô tô, xe bus đều được ạ"]
+        },
+        {"tag": "Phí du lịch",
+          "patterns": ["Mình muốn hỏi chi phí đi chơi 2 ngày 1 đêm ở Tam Đảo ạ","Đi du lịch Tam Đảo mất khoảng bao nhiêu tiền",
+            "Đi Tam Đảo có mất nhiều tiền không ạ","Còn chi phí thì sao ạ","Chi phí đi du lịch Tam Đảo là bao nhiêu","Đi Tam Đảo có đắt không"],
+          "responses": ["Chỉ cần khoảng 200-500 ngàn đồng cho chuyến đi chơi từ 1-2 ngày cuối tuần ạ",
+            "Chi phí rất phù hợp chỉ từ 200-500 ngàn cho 1-2 ngày cuối tuần ạ."]
+        },
+        {"tag": "Chỗ ở",
+          "patterns": ["Mình muốn ở qua đêm trên Tam Đảo thì nên ở đâu","Mình muốn kiếm một chỗ nghỉ chân trên Tam Đảo thì ở đâu là tốt nhất"],
+          "responses": ["Bạn có thể ở khách sạn hoặc nhà nghỉ ạ","Tam Đảo có rất nhiều khách sạn, nhà nghỉ tuyệt vời ạ"]
+        },
+        {"tag": "Khách sạn",
+          "patterns": ["Khách sạn nào tốt nhất","Còn khách sạn thì sao ạ","Khách sạn nào tiện nghi nhất",
+            "Khách sạn nào giá rẻ nhất","Khách sạn nào sang trọng nhất"],
+          "responses": ["Có nhiều khách sạn nổi tiếng như: Nam A hotel giá chỉ 616 ngàn đồng, khách sạn Anh Dao hotel chỉ 476 ngàn đồng... nằm trong top 10 khách sạn nổi tiếng, tiện nghi đấy đủ ạ.",
+            "Khách sạn Anh Dao vừa tiện nghi giá rẻ chỉ 476 ngàn đồng ạ, ngoài ra bạn có thể tìm thông tin các khạch sạn nổi tiếng khác nữa ạ"]
+        },
+        {"tag": "Nhà nghỉ",
+         "patterns": ["Nhà nghỉ nào tốt nhất","Còn nhà nghỉ thì sao ạ","Nhà nghỉ nào sang trọng, tiện nghi nhất","Nhà nghỉ nào giá rẻ, chất lượng tốt"],
+         "responses": ["Tam Đảo có rất nhiều nhà nghỉ tốt như: safia,Hanvet... tiện nghi mà giá lại rẻ chỉ 400-700 ngàn đồng ạ"]
+        },
+        {"tag": "Check in",
+          "patterns": ["Tam Đảo có chỗ nào chụp ảnh, check in","Tam Đảo có nhiều cảnh đẹp không","Chụp ảnh ở đó thì nên đến địa điểm nào",
+            "có địa điểm nào để chụp ảnh không"],
+          "responses": ["Có rất nhiều địa điểm, cảnh đẹp để chụp ảnh mà bạn nên đi như:Quảng trường trung tâm, Thang trời,Tháp truyền hình,thác Bạc,Nhà thờ Tam Đảo và nhiều địa đỉa khác ạ"]
+        },
+        {"tag": "Quảng trường trung tâm",
+          "patterns": ["Quảng trường trung tâm ở chỗ nào","Làm sao đến quảng trường trung tâm","Quảng trường trung tâm có gì thú vị",
+            "Quảng trường trung tâm có cảnh đẹp và chỗ chụp ảnh không"],
+          "responses": ["Đây là điểm vui chơi chính ở Tam Đảo, nằm ngay tại trung tâm của khu 1, thị trấn Tam Đảo, khu vực này rất đẹp, có sân quảng trường rộng, trong quảng trường có hàng ghế bậc thang và nhiều công trình đẹp để bạn chụp ảnh ạ",
+          "Nó nằm ở trung tâm khu 1, đây là điểm vui chơi chính ở Tam Đảo với nhiều cảnh đẹp, sân quảng tường rộng,đây cũng là điểm du lịch đầu tiên bạn gặp khi bước chân vào thị trấn, nhưng quảng trường đẹp nhất là vào buổi tối, khi các nhóm bạn trẻ tổ chức các lễ hội âm thanh cộng đồng, không khí thật sự sôi động, cuốn hút ạ"]
+        },
+        {"tag": "Nhà thờ Tam Đảo",
+          "patterns": ["Nhà thờ Tam Đảo nằm ở đâu","Làm sao đến nhà thờ Tam Đảo","Nhà thờ Tam Đảo ở vị trí nào",
+            "Nhà thờ Tam Đảo có gì đặc sắc không","Nhà thờ Tam Đảo có gì đẹp và có thể chụp ảnh được không"],
+          "responses":["Đây là điểm tham quan nổi tiếng nhất Tam Đảo, bất kỳ du khách nào đến Tam Đảo cũng đến đây, từ trên khuôn viên của nhà thờ bạn có thể nhìn thấy toàn cảnh thiên nhiên Tam đảo rất mộng mơ. Bạn có thể chụp ảnh lưu niệm với bạn bè và người thân của mình ạ"]
+        },
+        {"tag": "Tháp truyền hình",
+         "patterns": ["Tháp truyền hình ở đâu","Làm sao đến tháp truyền hình","Tháp truyền hình có gì đặc sắc không"],
+          "responses": ["Nằm trên đỉnh Thiên Thị có độ cao 1.375 m. Ðường đi lên tuy vất vả nhưng lãng mạn, nên thơ, dọc đường lên là hoa phong lan, hoa cúc quỳ và các loài hoa dại không tên khác nở đầy lối đi, tỏa hương thơm lạ, mầu sắc rực rỡ… ạ",
+          "Nằm trên đỉnh Thiên Thị có độ cao 1.375 m, đây là điểm du lịch yêu thích cho người thích Trekking, khi lên tới đỉnh tháp, đừng nhìn không gian núi rừng phía dưới là một trải nghiệm tuyệt vời ạ"]
+        },
+        {"tag": "Thác Bạc",
+         "patterns": ["thác Bạc ở đâu","Làm sao đi đến Thác bạc","Thác bạc ở chỗ nào","Đến thác Bạc đi như thế nào","Thác bạc có gì thú vị","Thác bạc có gì đặc biệt"],
+          "responses": ["Là thác đẹp nhất trong thị trấn, có dòng nước trong vắt bắt nguồn từ khe núi len lỏi qua các vòm cây xanh mát. Để đến thác, bạn tản bộ đến khu chợ trung tâm thị trấn rồi vòng qua con đường hướng phía đông sẽ gặp đường xuống thác ạ",
+          "Là thác đẹp nhất trong thị trấn, đặc biệt thác Bạc đẹp nhất là vào mùa hè khi lượng mưa lớn, nước từ trên những cánh rừng chảy về, lúc đó dòng thác trắng xóa như mái tóc bà tiên buông xõa dài theo vách núi đá giữa đại ngàn ạ"]
+        },
+        {"tag": "Quán ăn",
+          "patterns": ["Tam Đảo có những quán ăn nào ngon","Có địa điểm nào ăn ngon không","Có chỗ nào có đồ ăn ngon","Tam Đảo có món ăn nào ngon","Tam Đảo có đặc sản gì",
+            "Có quán ăn nào ngon ","Ở đâu có bán đồ ăn ngon","Đồ ăn ở đâu ngon nhất","Quán ăn nào nổi tiếng","Nhà hàng nào nổi tiếng","Nhà hàng nào nhiều đố ăn ngon"],
+          "responses": ["Tam Đảo có nhiều nhà hàng nổi tiếng như: Hải Đăng, Tây Thiên,Phố Núi,Khánh Ly,Không Gian Quán,Hương Rừng,Quán nướng bình dân.... và nhiều địa điểm ăn uống khác ạ, đồ ăn rất ngon và không gian rất đẹp ạ"]
+        },
+        {"tag": "Hải Đăng quán",
+         "patterns": ["Nhà hàng Hải Đăng có những món gì ngon, giá cả có đắt không","Nhà hàng Hải Đăng có những món gì ngon, tiền ăn có đắt không",
+         "Nhà hàng Hải Đăng có những món gì ngon, giá của từng món ra sao","còn nhà hàng Hải Đăng thì sao"],
+         "responses": ["Món khai vị gồm có:salat cà chua, súp gà, súp bò, khoai tây chiên.... Các món rau đặc sản:ngọn susu xào tỏi, măng rừng sào tỏi....Các món chính như:Gà đồi, lợn quay nướng, hấp, lợn rừng, nhím, chim.... giá chỉ từ 30000 đồng đến 200000 ngàn đồng ạ"]
+        },
+        {"tag": "Tây Thiên quán",
+          "patterns": ["Nhà hàng Tây Thiên có những món ăn nào ngon","Đồ ăn ở nhà hàng Tây Thiên có ngon không","Đồ ăn ở nhà hàng Tây Thiên giá có đắt không","còn nhà hàng Tây Thiên thì sao"],
+          "responses": ["Nhà hàng Tây Thiên không chỉ phục vụ đồ uống, nước hoa quả, sinh tố, café… các món ăn Việt nam như: Hải sản, các loại Cá, đồ nướng, món ăn gia đình mà còn cả những món ăn mang đặc trưng hương vị Châu Âu như Mỳ ý, thịt Cừu, sườn Cừu, Bò Úc … giá cả hợp lý ạ"]
+        },
+        {"tag": "Phố Núi quán",
+          "patterns": ["Nhà hàng Phố Núi có những món ăn nào ngon","Đồ ăn ở nhà hàng Phố Núi có ngon không","Đồ ăn ở nhà hàng Phố Núi giá có đắt không","còn nhà hàng Phố Núi thì sao"],
+          "responses":["Đây là nhà hàng nổi tiếng với các món ăn chế biến từ gà (quay bánh bao, luộc, nướng, hấp), cá (tầm rang muối, rán, om dưa, canh cá, cá chiên…), baba (nấu rượu vang, nướng riềng mẻ…). Sự khác biệt của nhà hàng Phố núi là món chân giò chiên, sau khi chế biến chân giò giòn, vị đậm, thơm, rất ngon miệng."]
+        },
+        {"tag": "Khánh Ly quán",
+         "patterns": ["Nhà hàng Khánh Ly có những món ăn nào ngon","Đồ ăn ở nhà hàng Khánh Ly có ngon không","Đồ ăn ở nhà hàng Khánh Ly giá có đắt không","còn nhà hàng Khánh Ly thì sao"],
+         "responses": ["Nhà hàng Khánh Ly hấp dẫn thực khách bởi các món ăn từ gà đồi đến dế mèn. Gà ở đây là những con gà được nuôi thả tự nhiên nên thịt giòn và săn chắc. Gà được chế biến thành các món ăn như gà rang muối, gà luộc, gà nướng… Dế Mèn Tam Đảo có vị béo đặc trưng được chế biến thành các món như dế chiên giòn, dế chiên bơ, dế rang muối sả ớt… "]
+        },
+        {"tag": "Không gian quán",
+         "patterns": ["Không Gian Quán có món gì ngon","Không Gian Quán có đắc sản gì","đồ ăn ở Không Gian Quán có đắt không","Đồ ăn ở không gian quán có ngon không"],
+         "responses": ["Về đồ ăn và giá cả thì cũng same same các quán vỉa hè bình dân khác trên thị trấn Tam Đảo: trứng nướng, thịt xiên nướng, rau su su, cơm lam, gà nướng, nước mía, nước dừa v.v... Thi thoảng còn có thêm sóc, dúi, chim cu gáy kiểu đặc sản rừng. Gà nướng ở đây rất ngon, khách yêu cầu xong mới đi bắt gà làm lông bọc giấy bạc nướng tại chỗ đảm bảo tươi, gà thì chạy đồi nên thịt rất chắc, và tẩm ướp cũng vừa miệng"]
+        }
+   ]
+}
